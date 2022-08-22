@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<tor_storungsmeldung>
+    <bestellung_ist_nicht_bekannt>perintah tidak diperbolehkan</bestellung_ist_nicht_bekannt>
+    <methode_ist_nicht_aktiviert>metode tidak aktif</methode_ist_nicht_aktiviert>
+    <bestellung_ist_nicht_zulassig>metode tidak diperbolehkan</bestellung_ist_nicht_zulassig>
+    <bestellung_ist_nicht_anmeldung>anda harus login dahulu</bestellung_ist_nicht_anmeldung>
+</tor_storungsmeldung>

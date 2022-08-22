@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 24, 2015, 6:09:53 PM
+    Author     : cahyo
+*/
+.kontainer{
+    margin-left: 2%;
+}
+.subkontainer{
+    padding-bottom: 3%;
+    margin-left: 6%;
+    margin-bottom: 1%;
+}
+.clabel{
+    float: left;
+    margin-right: 1%;
+}
+.cinput{
+    float: left;
+    margin-right: 4%;
+}
+.clabel_inside {
+    float: left;
+    margin-right: 1%;
+    text-align: right;
+    margin-right: 1%;
+    width: 15%;
+}
+.cinput_inside {
+    float: left; 
+    width:17%;
+}
+.subkontainer_inside{
+    clear: both; padding-top: 2%;
+}

@@ -1,0 +1,64 @@
+input#cek{
+	display: none;
+}
+label#tombol{
+	position: fixed;
+	top: 100px;
+	right: -30px;
+	z-index: 10;
+	width: 65px;
+	background: #01304c;
+	padding: 8px;
+	color: #fff;
+	font-weight: bold;
+	cursor: pointer;
+	text-align: center;
+	
+	border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+}
+label#tombol #tutup{
+	display: none;
+}
+#box{
+	width: 200px;
+	height: 400px;
+	padding: 10px;
+	top: 40px;
+	right:-222px;
+	position: fixed;
+	background: #fff;
+	border: 1px solid #ccc;
+	z-index: 20;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	box-shadow: 0 0 10px #ccc;
+}
+
+#konten{
+	border-top: 1px solid #ccc;
+	padding-top: 20px;
+	margin-top: 30px;
+}
+label#tombol, #box{
+	transition: 1s ease;
+	-moz-transition: 1s ease;
+	-webkit-transition: 1s ease;
+}
+input#cek:checked  ~ label#tombol{
+	right: 200px;
+}
+input#cek:checked  ~ #box{
+	right: 10px;
+}
+input#cek:checked  ~  label#tombol #tutup{
+	display: block;
+}
+input#cek:checked  ~  label#tombol #buka{
+	display: none;
+}

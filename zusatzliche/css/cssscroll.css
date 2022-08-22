@@ -1,0 +1,54 @@
+#table_wrapper{width:1280px;border:1px solid black;}
+  #header_table div{float:left;
+        font-size: 10.5px; }
+        #header_table #head1{width:18px; height: 80px; border-right: 1px solid black; vertical-align: middle;  } /* the same as td1 */
+        #header_table #head2{width:180px;height: 80px; border-right: 1px solid black; vertical-align: middle;} /* the same as td2 */
+        #header_table #head3{width:60px; height: 80px;border-right: 1px solid black;}
+        #header_table #head4{width:60px;height: 80px; border-right: 1px solid black; }
+        #header_table #head5{width:60px;height: 80px; border-right: 1px solid black; }
+        #header_table #head6{width:60px;height: 80px; border-right: 1px solid black; }
+        #header_table #head7{width:60px;height: 80px; border-right: 1px solid black;}
+        #header_table #head8{width:70px;height: 80px; border-right: 1px solid black;}
+        #header_table #head9{width:60px;height: 80px; border-right: 1px solid black;}
+        #header_table #head10{width:60px;height: 80px;border-right: 1px solid black;}
+        #header_table #head11{width:60px;height: 80px;border-right: 1px solid black;}
+        #header_table #head12{width:60px;height: 80px;border-right: 1px solid black;}
+        #header_table #head13{width:60px;height: 80px;border-right: 1px solid black;}
+        #header_table #head14{width:60px;height: 80px;border-right: 1px solid black;}
+        #header_table #head15{width:60px;height: 80px;border-right: 1px solid black;}
+        #header_table #head16{width:240px;height:20px;border-right: 1px solid black; border-bottom: 1px solid black;}
+        #header_table #head17{float:none;height: 80px;}
+       
+        #bawah{width :39.25px;border-right:1px solid black;; height:59px;}
+
+        p1{
+            font-size: 9px;
+        }
+#table_wrapper{border:1px solid black;}
+  #tbody{overflow-y:auto;}
+  table{border:1px; width:100%;}
+  td{padding:1px 5px; /* pixels */
+      border-right:1px solid black; /* to avoid the hacks for the padding */
+      border-bottom:1px solid black;}
+  .td1{width:6px}
+  .td2{width:180px;}
+.td3{width:48px;}
+ .td4{width:48px}
+  .td5{width:65px}
+.td6{width:48px}
+.td7{width:48px}
+  .td8{width:58px}
+.td9{width:48px;}
+ .td10{width:48px;}
+  .td11{width:48px;}
+.td12{width:48px;}
+.td13{width:48px;}
+  .td14{width:48px;}
+.td15{width:48px;}
+ .td16{width:27px;}
+  .td17{width:27px;}
+.td18{width:27px;}
+.td19{width:27px;}
+  .td20{width:27px;}
+.td21{width:27px;}
+  .td22{border-right-width:0;} /* optional */

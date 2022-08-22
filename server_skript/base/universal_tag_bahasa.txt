@@ -1,0 +1,8 @@
+1. username_or_email
+2. password
+3. login
+4. forgot_password
+4. empty_username_password_login
+5. empty_username
+6. empty_password
+7. exception_unfullfill_data

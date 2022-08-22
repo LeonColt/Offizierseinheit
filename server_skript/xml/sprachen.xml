@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<sprache>
+    <sprahe>
+        <sprache_familie>Austronesian</sprache_familie>
+        <name>Indonesia</name>
+        <native_name>Bahasa Indonesia</native_name>
+        <code>id</code>
+    </sprahe>
+    <sprahe>
+        <sprache_familie>Indo-European</sprache_familie>
+        <name>English</name>
+        <native_name>en</native_name>
+        <code>id</code>
+    </sprahe>
+</sprache>

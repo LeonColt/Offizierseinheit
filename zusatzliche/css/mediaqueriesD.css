@@ -1,0 +1,71 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 16, 2015, 4:59:46 PM
+    Author     : cahyo
+*/
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* Jika berukuran 980px atau kurang*/
+@media screen and (max-width: 980px) {
+    
+    #pagewrap {
+        width: 94%;
+    }
+    #content {
+        width: 120%;
+    }
+    #sidebar {
+        width: 30%;
+    }
+    
+    
+ 
+}
+ 
+/* Jika berukuran 700px atau kurang*/
+@media screen and (max-width: 700px) {
+ 
+    #content {
+        width: auto;
+        float: none;
+    }
+    #sidebar {
+        width: auto;
+        float: none;
+    }
+    #menu{
+        width: auto;
+        float: none;
+    }
+    #back{
+        width: auto;
+    float: none;
+    }
+}
+ 
+/* Jika berukuran 480px atau kurang*/
+@media screen and (max-width: 480px) {
+ 
+    #header {
+        height: auto;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    #sidebar {
+        display: none;
+    }
+    #menu{
+         width: auto;
+    }
+    #back{
+        width: auto;
+    }
+ 
+}
+

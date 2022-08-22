@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Upload File</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../zusatzliche/css/input.css" rel="stylesheet" type="text/css" />
+        <link href="../zusatzliche/css/mediaqueriesD.css" rel="stylesheet" type="text/css" />
+        <link type="text/css" rel="stylesheet" href="../zusatzliche/css/sliding_box.css">
+       <link rel="icon" href="image/garuda.png" type="image/x-icon">
+     
+        <link rel="stylesheet" href="../zusatzliche/client_skript/jquery-ui.js">
+        <style>
+          
+            table {
+        border-collapse: collapse;
+         table-layout: fixed;
+                
+                margin-left: 75px;
+            }
+
+             td {
+        padding:1px;
+        text-align: center;
+        border-bottom: 5px solid #ddd;
+        white-space: pre-wrap; /* css-3 */
+       white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+        white-space: -pre-wrap; /* Opera 4-6 */
+        white-space: -o-pre-wrap; /* Opera 7 */
+        word-wrap: break-word; /* Internet Explorer 5.5+ */
+                 
+
+            }
+            th{
+                padding:2px;
+        text-align: left;
+                color:#fff;
+                 text-align: center;
+            }
+            #tb_atas td{
+                width:2;
+                border:1px;
+            }
+        </style>
+        
+    </head>
+    <body>
+     <div id="pagewrap">
+    <div id="header" ></div>
+    <div id ="info" >
+        <marquee direction="left" scrollamount="5" text-align="center"><p >Berisi tentang informasi-informasi dari database</p></marquee>
+    </div>
+        <div class="menuBackground">
+	<ul class="dropDownMenu">
+		<li><a href="#">Dashboard</a></li>
+		<li><a href="#">Input Koperasi</a>
+			<ul>
+				<li><a href="#">KSP</a>
+                                <ul>
+                                    <li><a href="#">Nasional</a></li>
+                                    <li><a href="#">Propinsi</a></li>
+                                    <li><a href="#">Kab/Kota</a></li>
+                                </ul>
+                                </li>
+				<li><a href="#">KOPDIT</a>
+                                    <ul>
+                                        <li><a href="#">Nasional</a></li>
+                                        <li><a href="#">Propinsi</a></li>
+                                        <li><a href="#">Kab/Kota</a></li>
+                                    </ul>
+                                </li>
+				<li><a href="#">USP KOPERASI</a>
+                                    <ul>
+                                        <li><a href="#">Nasional</a></li>
+                                        <li><a href="#">Propinsi</a></li>
+                                        <li><a href="#">Kab/Kota</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">KJKS</a>
+                                    <ul>
+                                        <li><a href="#">Nasional</a></li>
+                                        <li><a href="#">Propinsi</a></li>
+                                        <li><a href="#">Kab/Kota</a></li>
+                                    </ul>
+                                </li>
+				<li><a href="#">UJKS KOPERASI</a>
+                                    <ul>
+                                        <li><a href="#">Nasional</a></li>
+                                        <li><a href="#">Propinsi</a></li>
+                                        <li><a href="#">Kab/Kota</a></li>
+                                    </ul>
+                                </li>
+			</ul>
+		</li>
+		
+		<li><a href="#">Output Koperasi</a>
+			
+		</li>
+		<li><a href="#">Setting</a>
+                                    <ul>
+                                        <li><a href="#">Tambah USer </a></li>
+                                        <li><a href="#">Ubah Password</a></li>
+                                        <li><a href="#">Memo dan Kontak</a></li>
+                                        <li><a href="#">Manage User</a></li>
+                                    </ul>
+        </li>
+                <li><a href="#">LogOut</a></li>
+	</ul>
+        </div>
+    <div id="content" >
+        <div id="insidecontent">
+              <h1 align="center" >Upload File</h1>
+        </div>
+        <div id="back" style=" height:auto;">
+            <div >
+                <div >
+                <table id="tb_atas" width="600" style="margin-left:300px;" >
+                    <tr> 
+                    <td width="70%"> Upload file <input type="file"> </td>
+                        <td> download form upload</td>
+                    <td width="5%"> <a title="download"> <img src="../bilder/excel.jpg" width="70"></a></td>
+                    </tr>
+                 </table>
+                   
+                   
+                        
+                    <br> 
+                    
+                    <div style="margin-left:200px;">
+                     Tanggal
+                  <input type="text" id="myVariable" name="myVariable" >
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
+                    <script src="../zusatzliche/client_skript/jquery-ui.js"></script>
+                    <script>
+                        $(function() {
+                            $('#myVariable').datepicker({dateFormat: 'dd/mm/yy'});
+                        });
+ 
+                    </script>
+            User Upload 
+                <select> 
+                <option> admin  </option>
+                <option> Nasional </option>
+                <option> Provinsi </option>
+                <OPtion> Kabupaten / Kota </OPtion>
+                </select>
+               
+               
+                 Provinsi 
+                <select> 
+                <option> Provinsi </option>
+                </select>
+                Kabupaten  
+                <select> 
+                <option> Kabupaten / Kota </option>
+                </select>
+                
+                <button >filter</button>
+                  </div>
+                </div>
+                <br>
+             
+                <a><img src="image/prev.png"style="margin-left:80px;" width="40px"></a>
+                <img src="image/next.png"style="margin-left:1005px;" width="40px">
+                <table   style="margin-top:10px;width:1100px;"  > 
+                        <tr bgcolor="#0a84bd" > 
+                            <th width="2%" >no</th>
+                            <th >Tanggal</th>
+                            <th width="35%"> Nama file </th>
+                            <th width="25%"> Pengupload </th>
+                            <th colspan="2"> Event </th>
+                        </tr>    
+                
+                    <tr> 
+                            <td >1</td>
+                            <td >22/Januari/2016</td>
+                            <td > Username </td>
+                            <td >asdasdasdasdasdasdasdasdasdasdasdasdadasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd  </td>
+                            <td height="2px">
+                                <a title="download"><img src="image/download.png"width="30px" > </a>
+                            </td>
+                            <td >
+                                <a title="hapus"> <img src="image/trash.png"width="30px"> </a>
+                            </td>
+                    </tr>
+                    <tr> 
+                            <td >1</td>
+                            <td >22/Januari/2016</td>
+                            <td > Username </td>
+                            <td >asdasdasdasdasdasdasdasdasdasdasdasdadasdasdasdasdasdasdasdasdasdasdasdasdasdasdasd  </td>
+                            <td height="2px">
+                                <a title="download"><img src="image/download.png"width="30px" > </a>
+                            </td>
+                            <td >
+                                <a title="hapus"> <img src="image/trash.png"width="30px"> </a>
+                            </td>
+                    </tr>
+                  
+                </table>
+                
+            </div>
+        </div>
+
+        
+    </div>
+           <input type="checkbox"  id="cek">
+			<label id="tombol" for="cek">
+				<span id="buka">Help</span>
+				<span id="tutup">Help</span>
+			</label>
+			
+			<div id="box">
+				<div id="konten">
+					Ini adalah konten dari sliding box. Di sini dapat diisi fasilitas chating, form kontak, dan sebagainya. 
+				</div>				
+			</div>	
+  
+         
+ 
+    
+    <div id="footer">
+      <p align="center"> Copyright (c) 2015 - Kementerian Koperasi dan Usaha Kecil dan Menengah - Deputi Pembiayaan</p>
+    </div>
+        </div>
+ 
+    </body>
+   
+</html>

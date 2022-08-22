@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<indonesia>
+    <string>
+        <anmeldung>Login</anmeldung>
+        <benutzername>username</benutzername>
+        <passwort>password</passwort>
+        <vergessen_passwort>Lupa Password?</vergessen_passwort>
+        <benutzername_und_passwort_leere>username atau password tidak boleh kosong</benutzername_und_passwort_leere>
+        <benutzername_leere>username tidak boleh kosong</benutzername_leere>
+        <passwort_leere>password tidak boleh kosong</passwort_leere>
+    </string>
+    <path>
+        
+    </path>
+</indonesia>

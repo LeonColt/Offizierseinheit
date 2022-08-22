@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<english>
+    <string>
+        <username_or_email>username or email</username_or_email>
+        <password>password</password>
+        <login>Login</login>
+        <forgot_password>Forgot Password?</forgot_password>
+        <empty_username_password_login>username or password cannot be empty</empty_username_password_login>
+        <empty_username>username cannot be empty</empty_username>
+        <empty_password>password cannot be empty</empty_password>
+        <exception_unfullfill_data>some data hasn't been sent</exception_unfullfill_data>
+    </string>
+    <path>
+        
+    </path>
+</english>

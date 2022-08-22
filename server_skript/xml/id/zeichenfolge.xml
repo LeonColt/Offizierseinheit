@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<zeichenfolge>
+    <alle>semua</alle>
+    <provinz>Provinsi</provinz>
+    <regenschaft>kabupaten</regenschaft>
+    <ausgabe_parameter_model_alle>semua</ausgabe_parameter_model_alle>
+    <du>anda</du>
+    <super_admin>super admin</super_admin>
+    <datum>Tanggal</datum>
+
+    <sekunde>detik</sekunde>
+    <minute>menit</minute>
+    <stunde>jam</stunde>
+    <tag>hari</tag>
+    <monat>Bulan</monat>
+    <jahr>Tahun</jahr>
+
+    <warnung>warning</warnung>
+    <fehler>error</fehler>
+
+    <standart_optionen_provinz>pilih provinsi</standart_optionen_provinz>
+    <standart_optionen_kabupaten_kota>pilih kabupaten/kota</standart_optionen_kabupaten_kota>
+    <standart_nachrich_ist_nicht_fullung>tidak diisi</standart_nachrich_ist_nicht_fullung>
+
+    <standart_optionen_provinz_und_kabupaten_kota_ist_nicht_gewahlt_nachricht>propinsi dan kabupaten/kota harus dipilih</standart_optionen_provinz_und_kabupaten_kota_ist_nicht_gewahlt_nachricht>
+    <standart_optionen_provinz_ist_nicht_gewahlt_nachricht>propinsi harus dipilih</standart_optionen_provinz_ist_nicht_gewahlt_nachricht>
+    <standart_optionen_kabupaten_kota_ist_nicht_gewahlt_nachricht>kabupaten/kota harus dipilih</standart_optionen_kabupaten_kota_ist_nicht_gewahlt_nachricht>
+
+    <!--beginnen anzaigen-->
+    <anzaigen_anmeldung>Login</anzaigen_anmeldung>
+    <anzaigen_bindestrich_brett>Dashboard</anzaigen_bindestrich_brett>
+    <anzaigen_einfugen>Input</anzaigen_einfugen>
+    <anzaigen_logout>Logout</anzaigen_logout>
+    <anzaigen_ausgabe_nationalen>Rekapitulasi Nasional</anzaigen_ausgabe_nationalen>
+    <anzaigen_ausgabe_provinz>Rekapitulasi Provinsi</anzaigen_ausgabe_provinz>
+    <anzaigen_ausgabe_kabupaten>Rekapitulasi Kabupaten</anzaigen_ausgabe_kabupaten>
+    <anzaigen_hinzufugen_benutzer>Tambah user</anzaigen_hinzufugen_benutzer>
+    <anzaigen_andern_passwort>Ubah password</anzaigen_andern_passwort>
+    <anzaigen_einstellung_nachricht_und_kontakt>Memo dan Kontak</anzaigen_einstellung_nachricht_und_kontakt>
+    <anzaigen_perfil>Profile</anzaigen_perfil>
+    <anzaigen_einstellung_benutzer>user</anzaigen_einstellung_benutzer>
+    <anzaigen_einfugen_datei>file</anzaigen_einfugen_datei>
+    <weiterhin_speichen>data disimpan?</weiterhin_speichen>
+    <!--ende anzaigen-->
+
+    <!--beginnen_anmeldung-->
+    <anmeldung_schaltflace>Masuk</anmeldung_schaltflace>
+    <anmeldung_benutzername_platz_inhaber>Username ..</anmeldung_benutzername_platz_inhaber>
+    <anmeldung_passwort_platz_inhaber>Password ..</anmeldung_passwort_platz_inhaber>
+    <anmeldung_vergessen_passwort>Lupa Password?</anmeldung_vergessen_passwort>
+    <anmeldung_null_benutzer>user tidak terdaftar</anmeldung_null_benutzer>
+    <falsch_passwort>password salah</falsch_passwort>
+    <allgemein_benutzer>user tidak berkategori</allgemein_benutzer>
+    <!--ende_anmeldung-->
+
+    <!--beginnen_einfugen-->
+    <einfugen_erfolg>data berhasil disimpan</einfugen_erfolg>
+    <einfugen_fehler>data gagal disimpan atau data sudah ada dan sama</einfugen_fehler>
+    <!--ende_einfugen-->
+
+    <!--beginnen andern_passwort-->
+    <andern_passwort_erfolg>Mengubah password berhasil</andern_passwort_erfolg>
+    <andern_passwort_fehler>Mengubah password gagal</andern_passwort_fehler>
+    <andere_passwort_aktuelle_passwort_fehler>password salah</andere_passwort_aktuelle_passwort_fehler>
+    <andere_passwort_neu_und_bestatigen_ist_nicht_gleichen>password baru dan konfirmasi password baru tidak sama</andere_passwort_neu_und_bestatigen_ist_nicht_gleichen>
+    <!--ende andern_passwort-->
+
+    <!--beginnen hinzufugen_benutzer-->
+    <hinzufugen_benutzer_erfolg>sukses menambah user</hinzufugen_benutzer_erfolg>
+    <hinzufugen_benutzer_fehler>gagal menambah user</hinzufugen_benutzer_fehler>
+    <bilder_ist_nicht_bilder>foto bukan gambar</bilder_ist_nicht_bilder>
+    <bilder_ist_uber_größe>gambar melebihi batas maksimum, 3MB</bilder_ist_uber_größe>
+    <hinzufugen_benutzer_bereits_vorhanden>user sudah ada</hinzufugen_benutzer_bereits_vorhanden>
+    <hinzufugen_benutzer_mit_nicht_provinz>provinsi tidak diisi</hinzufugen_benutzer_mit_nicht_provinz>
+    <hinzufugen_benutzer_mit_nicht_kabupaten>kabupaten tidak diisi</hinzufugen_benutzer_mit_nicht_kabupaten>
+    <!--ende hinzufugen_benutzer-->
+
+    <!--beginnen einstellung_nachricht_und_kontakt-->
+    <einstellung_nachricht_und_kontakt_nachricht_erfolg>update memo sukses</einstellung_nachricht_und_kontakt_nachricht_erfolg>
+    <einstellung_nachricht_und_kontakt_nachricht_fehler>update memo gagal</einstellung_nachricht_und_kontakt_nachricht_fehler>
+    <einstellung_nachricht_und_kontakt_kontakt_erfolg>update kontak sukses</einstellung_nachricht_und_kontakt_kontakt_erfolg>
+    <einstellung_nachricht_und_kontakt_kontakt_fehler>update kontak gagal</einstellung_nachricht_und_kontakt_kontakt_fehler>
+    <!--ende einstellung_nachricht_und_kontakt-->
+
+    <!--beginnen update_benutzer_perfil-->
+    <update_benutzer_perfil_erfolg>update profil sukses</update_benutzer_perfil_erfolg>
+    <update_benutzer_perfil_fehler>update profil gagal</update_benutzer_perfil_fehler>
+    <!--ende update_benutzer_perfil-->
+
+    <!--beginnen anzaigen_einstellung_benutzer-->
+    <anzaigen_einstellung_benutzer_alle>semua</anzaigen_einstellung_benutzer_alle>
+    <anzaigen_einstellung_benutzer_ende>level</anzaigen_einstellung_benutzer_ende>
+    <anzaigen_einstellung_benutzer_provinz>Provinsi</anzaigen_einstellung_benutzer_provinz>
+    <anzaigen_einstellung_benutzer_kabupaten>Kabupaten</anzaigen_einstellung_benutzer_kabupaten>
+    <anzaigen_einstellung_benutzer_benutzer_mulleimer_erfolg>menghapus user berhasil</anzaigen_einstellung_benutzer_benutzer_mulleimer_erfolg>
+    <anzaigen_einstellung_benutzer_benutzer_mulleimer_fehler>menghapus user gagal</anzaigen_einstellung_benutzer_benutzer_mulleimer_fehler>
+    <anzaigen_einstellung_benutzer_benutzer_wiederherstellen_erfolg>mengembalikan user berhasil</anzaigen_einstellung_benutzer_benutzer_wiederherstellen_erfolg>
+    <anzaigen_einstellung_benutzer_benutzer_wiederherstellen_fehler>mengembalikan user gagal</anzaigen_einstellung_benutzer_benutzer_wiederherstellen_fehler>
+    <!--ende anzaigen_einstellung_benutzer-->
+
+    <!--beginnen anzaigen_einfugen_datei-->
+    <anzaigen_einfugen_datei_benutzer_typ>User Upload</anzaigen_einfugen_datei_benutzer_typ>
+    <anzaigen_einfugen_datei_nicht_datei>file tidak ada</anzaigen_einfugen_datei_nicht_datei>
+    <anzaigen_einfugen_datei_datei_schriftsteller_daten_uberprufen_fehler>file tidak ada</anzaigen_einfugen_datei_datei_schriftsteller_daten_uberprufen_fehler>
+    <anzaigen_einfugen_datei_datei_schriftsteller_datei_fehler>file tidak didukung</anzaigen_einfugen_datei_datei_schriftsteller_datei_fehler>
+    <anzaigen_einfugen_datei_datei_schriftsteller_erfolg>menyimpan file sukses</anzaigen_einfugen_datei_datei_schriftsteller_erfolg>
+    <anzaigen_einfugen_datei_datei_schriftsteller_fehler>menyimpan file gagal</anzaigen_einfugen_datei_datei_schriftsteller_fehler>
+    <anzaigen_einfugen_datei_datei_loschen_erfolg>menghapus file berhasil</anzaigen_einfugen_datei_datei_loschen_erfolg>
+    <anzaigen_einfugen_datei_datei_loschen_fehler>menghapus file gagal</anzaigen_einfugen_datei_datei_loschen_fehler>
+    <!--ende anzaigen_einfugen_datei-->
+    <!--beginnen vergessen_passwort-->
+    <vergessen_passwort_erfolg>email telah dikirim</vergessen_passwort_erfolg>
+    <vergessen_passwort_fehler>email gagal dikirim</vergessen_passwort_fehler>
+    <vergessen_passwort_nicht_email>email tidak ada</vergessen_passwort_nicht_email>
+    <vergessen_passwort_email_korper_id>id : ? \n\n</vergessen_passwort_email_korper_id>
+    <vergessen_passwort_email_korper_username>username : ? \n\n</vergessen_passwort_email_korper_username>
+    <vergessen_passwort_email_korper_passwort>password: ? \n\n</vergessen_passwort_email_korper_passwort>
+    <vergessen_passwort_email_format_fehler>format email salah</vergessen_passwort_email_format_fehler>
+    <vergessen_passwort_email_betreff>lupa password</vergessen_passwort_email_betreff>
+    <vergessen_passwort_nachricht_email>isikan email anda</vergessen_passwort_nachricht_email>
+    <vergessen_passwort_nachricht_nicht_email>isikan email anda</vergessen_passwort_nachricht_nicht_email>
+    <vergessen_passwort_email_von_email>noreply@satgas.net</vergessen_passwort_email_von_email>
+    <!--ende vergessen_passwort-->
+</zeichenfolge>

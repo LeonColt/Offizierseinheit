@@ -1,0 +1,4 @@
+Options +FollowSymLinks 
+RewriteEngine on 
+RewriteCond %{REQUEST_URI} !(.*)satgas 
+RewriteRule ^(.*)$ satgas/$1 [L]
